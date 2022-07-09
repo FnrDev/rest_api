@@ -7,17 +7,20 @@ mainRouter.get('/', async (req, res) => {
         {
             name: 'Fnr',
             id: '1',
-            isAdmin: true
+            isAdmin: true,
+            role: 'Owner',
         },
         {
             name: "Joe",
             id: '2',
-            isAdmin: false
+            isAdmin: false,
+            role: 'User',
         },
         {
             name: "Ali",
             id: '3',
-            isAdmin: false
+            isAdmin: false,
+            role: 'Admin'
         }
     ] as User[];
 

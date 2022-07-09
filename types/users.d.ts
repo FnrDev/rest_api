@@ -1,6 +1,6 @@
 export interface User {
     name: string;
     id: string;
-    role: string;
+    role: 'Owner' | 'Admin' | 'User';
     isAdmin: boolean;
 }
